@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Strong blue glow using drop shadow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#00bfff"/>
+    </filter>
+  </defs>
+  <!-- Thinner white checkmark with stronger blue glow -->
+  <path d="M16 32 L28 44 L48 20" stroke="white" stroke-width="3" fill="none" filter="url(#glow)"/>
+</svg>
